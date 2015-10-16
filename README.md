@@ -37,6 +37,7 @@ In case there is a problem with the above installation method, you can install i
     4. For Custom Icon, select ```k-meleon.ico```
     5. Click convert, and now you have compiled an .exe file with the name, location, and icon of your choosing.
 3. Run the file (double click) and now it is active, all K-Meleon windows will behave in the new way I have described. Without any further work, you must manually start this application when you want it to work.
+### Autostart
 4. To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, so you will probably want to follow these steps):
   1. Move kwm.exe and ```kwm.bat``` to the K-Meleon directory (```C:\Program Files (x86)\K-Meleon``` in 64-bit Windows)
   2. Right click the batch file and create a shortcut.
@@ -53,6 +54,6 @@ In case there is a problem with the above installation method, you can install i
   11. There should be a file called something like K-Meleon Web Browser. Copy your newly made shortcut into this directory.
   12. If it has the same name as the original, let it overwrite. If they have different names, delete the original and rename yours (only the one in TaskBar) to the name that the original had.
   13. Now all of your K-Meleon shortcuts open KM TitleBar Delete along with K-Meleon.
-
-## Window Buttons: _ [] X 
-You must manually copy all of the text in ```kwm-toolbar.cfg``` to the bottom of ```C:\Program Files (x86)\K-Meleon\browser\defaults\settings\toolbars.cfg```. Enable to toolbar in K-Meleon and click and drag it to wherever you would like.
+### Window Buttons: _ [] X 
+  14. Manually copy all of the text in ```kwm-toolbar.cfg``` to the bottom of ```C:\Program Files (x86)\K-Meleon\browser\defaults\settings\toolbars.cfg```.
+  15. Make sure the K-Meleon Window Manager toolbar is enabled in K-Meleon and click and drag it to wherever you would like.
