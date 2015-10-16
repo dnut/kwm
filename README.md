@@ -1,2 +1,2 @@
-# K-meleon Window Manager
-A window management tool exclusively for K-meleon in Microsoft Windows.
+# K-Meleon Window Manager
+A window management tool exclusively for K-Meleon in Microsoft Windows.
