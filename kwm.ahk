@@ -6,11 +6,9 @@
 ; Have this program close (on start) and open (on exit) Window Controller to maintain consistency without interference.
 
 
-
-
 ; Initialize configuration settings
-IniRead, confirm, %A_AppData%\K-Meleon\kmwc.ini,config,confirm ; When set, dialog confirms K-Meleon exit (not default).
-IniRead, global, %A_AppData%\K-Meleon\kmwc.ini,config,global   ; When set, max/restore hotkey affects all windows (not default).
+IniRead, confirm, %A_AppData%\K-Meleon\kwm.ini,config,confirm ; When set, dialog confirms K-Meleon exit (not default).
+IniRead, global, %A_AppData%\K-Meleon\kwm.ini,config,global   ; When set, max/restore hotkey affects all windows (not default).
 
 ; Initialize variables.
 flag := 0                          ; No flag means go ahead and remove title bar.
@@ -19,7 +17,7 @@ leave :=0                          ; Used to permit K-Meleon exit.
 stylevar := 0
 
 ; Tray Menu
-Menu, tray, tip, KM Window Controller
+Menu, tray, tip, K-Meleon Window Manager
 Menu, tray, nostandard
 menu, tray, add, New Window, openfn
 menu, tray, add
@@ -30,7 +28,7 @@ menu, tray, add
 menu, tray, add, Settings, SettingsFn
 menu, tray, add, Help, HelpFn
 menu, tray, add
-menu, tray, add, Exit KM Window Controller, ExitFn
+menu, tray, add, Exit K-Meleon Window Manager, ExitFn
 menu, tray, add, Exit K-Meleon, ExitAllFn
 
 ; Window Menu
@@ -42,7 +40,7 @@ menu, window, add, Maximize, WinMaximizeFn
 menu, window, add
 menu, window, add, Close, WinCloseFn
 menu, window, add
-menu, window, add, KM Window Controller, :tray
+menu, window, add, K-Meleon Window Manager, :tray
 
 ; Main Code
 SetTimer, fix_k-meleon, 5          ; Loop the function.
@@ -107,32 +105,32 @@ remobar:
   return
 
 SettingsFn:
-  MsgBox,0x1024, KM Window Controller Settings, Would you like KM Window Controller to display a confirmation dialog before closing K-Meleon?
+  MsgBox,0x1024, K-Meleon Window Manager Settings, Would you like KWM to display a confirmation dialog before closing K-Meleon?
   ifMsgBox Yes
   {
     confirm := 1
-	IniWrite, 1, %A_AppData%\K-Meleon\kmwc.ini,config,confirm
+	IniWrite, 1, %A_AppData%\K-Meleon\kwm.ini,config,confirm
   }
   ifMsgBox No
   {
     confirm := 0
-	IniWrite, 0, %A_AppData%\K-Meleon\kmwc.ini,config,confirm
+	IniWrite, 0, %A_AppData%\K-Meleon\kwm.ini,config,confirm
   }
   MsgBox,0x1024, Settings (This session only), Would you like the Maximize/Restore hotkey to work for all windows?
   ifMsgBox Yes
   {
     global := 1
-	IniWrite, 1, %A_AppData%\K-Meleon\kmwc.ini,config,global
+	IniWrite, 1, %A_AppData%\K-Meleon\kwm.ini,config,global
   }
   ifMsgBox No
   {
     global := 0
-	IniWrite, 0, %A_AppData%\K-Meleon\kmwc.ini,config,global
+	IniWrite, 0, %A_AppData%\K-Meleon\kwm.ini,config,global
   }
   return
 
 HelpFn:
-  MsgBox,0x1040, KM Window Controller Help,
+  MsgBox,0x1040, K-Meleon Window Manager Help,
     (
 Remove or replace the title bar:
   + Hold the left windows key and then left click anywhere.
@@ -149,7 +147,7 @@ Maximize or restore the window:
 Settings persist from session to session as long as the K-Meleon\kmdb
 directory remains intact.
 	)
-  MsgBox,0x1044, KM Window Controller Help, Would you like to view the online documentation?
+  MsgBox,0x1044, K-Meleon Window Manager Help, Would you like to view the online documentation?
   ifMsgBox Yes
     run, https://www.google.com/search?q=%22km%20window%20controller%22&cad=h
   return
