@@ -22,5 +22,5 @@ During installation, new window buttons ( _ [] X ) are added to K-Meleon as a to
 KWM creates a tray icon. Right click to see the available actions and settings.
 
 ### Hotkeys / Keybinds
-W-L (hold the windows key and then left click): Cycles titlebar state. On the first press, it will bring back the title bar on any activated K-Meleon window, on the next press it will return back to the initial state of the program, and so on.
-W-R (hold the windows key and then right click): Opens window management menu with options such as minimize, maximize/restore, close, and the entire tray menu. By default this hotkey now can be used for any application in Windows, but if you uncomment (delete the ; from) lines 13 and 22 of the ahk file before compiling, it will make it so this hotkey only works in K-Meleon.
+* W-L (hold the windows key and then left click): Cycles titlebar state. On the first press, it will bring back the title bar on any activated K-Meleon window, on the next press it will return back to the initial state of the program, and so on.
+* W-R (hold the windows key and then right click): Opens window management menu with options such as minimize, maximize/restore, close, and the entire tray menu. By default this hotkey now can be used for any application in Windows, but if you uncomment (delete the ; from) lines 13 and 22 of the ahk file before compiling, it will make it so this hotkey only works in K-Meleon.
