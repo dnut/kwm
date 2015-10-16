@@ -3,7 +3,7 @@
   1. If you wish to have the letter H as the program's icon, navigate to and right click your .ahk file and click "compile," and in the same directory as your .ahk file there will be a new file called kmtbd.exe.
   2. If instead you wish to use my icon (whatever icon you choose will be visible in your tray), follow these steps: 
     1. Then open "Convert .ahk to .exe" which should now be in your start menu under AutoHotkey.
-    2. For Source, select the .ahk
+    2. For Source, select the kwm.ahk
     3. For destination, choose a new name and save location (```kwm.exe```)
     4. For Custom Icon, select ```k-meleon.ico```
     5. Click convert, and now you have compiled an .exe file with the name, location, and icon of your choosing.
