@@ -12,7 +12,7 @@ if "%yn%"=="Y" (
 )
 
 if "%yn%"=="y" (
-	echo Compiling ahk, mergining with icon . . .
+	echo Compiling ahk, merging with icon . . .
 
 
 	echo Copying exe and bat to K-Meleon folder . . .
