@@ -110,7 +110,7 @@ WinCloseFn:
   WinClose, A
   return
 openfn:
-  run, %A_ProgramFiles%\K-Meleon\k-meleon.exe
+  run, k-meleon.exe
   return
 enabar:
   flag := 1
