@@ -20,6 +20,6 @@ if exist C:\Progra~2\K-Meleon\k-meleon.exe (
 	if exist "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\K-Meleon.lnk" (
 		copy k-meleon.lnk "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\K-Meleon.lnk"
 	)
-	if exist "C:\Users\Drew\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\K-Meleon.lnk" (
-		copy k-meleon.lnk "C:\Users\Drew\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\K-Meleon.lnk"
+	if exist "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\K-Meleon.lnk" (
+		copy k-meleon.lnk "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\K-Meleon.lnk"
 	)
