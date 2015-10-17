@@ -121,6 +121,9 @@ if %install% == true (
 
 	echo.
 	echo Creating shortcuts . . .
+	shortcuts.bat
+	:: For some reason this code wouldn't work embedded into this batch script.
+	:: I couldn't figure out why, but it works when called as a separate file.
 
 	echo.
 	echo Installation complete. Check above for errors just in case. Press any key to exit . . .
