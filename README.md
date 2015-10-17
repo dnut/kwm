@@ -17,7 +17,7 @@ I originally created this because I was unsatisfied with the currently existing 
 
 install.bat will automatically compile and install the application as soon as it is executed (no prompts). Start menu, taskbar, and desktop shortcuts *should* be replaced with one that autostarts KWM with K-Meleon. If you have custom shortcuts and they don't work with KWM, you should copy the k-meleon.lnk file that gets created by install.bat into whatever location you desire (check out the Autostart section of Manual Install for more details about default shortcut locations). If you update K-Meleon and your shortcuts stop working with KWM, you can just run shortcut.bat and they should get fixed.
 
-I will eventually create a binary installer and will upload it to my website (not github, I'll put a link here when it's done). The binary installer will allow you to install KWM without needing AutoHotkey.
+This git repo contains purely source code (and a few images), so installation and uninstallation are handled with batch scripts. I will eventually create a binary installer and will upload it to my website (not github, I'll put a link here when it's done). The binary installer will allow you to install KWM without needing AutoHotkey.
 
 You can also manually compile and install the application. See below for more details.
 
