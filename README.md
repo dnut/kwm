@@ -8,7 +8,9 @@ K-Meleon Window Manager is a tiny open-source application (~4MB of RAM) which re
 I created this because I was unsatisfied with the currently existing methods of removing the title bar. Using the built in fullscreen settings (or fullscreen2plus) is a workaround that removes the title bar by entering fullscreen mode while leaving the taskbar and toolbars. This is unsatisfactory unless you keep K-Meleon maximized 100% of the time. If you want to have multiple windows on your screen at once, that solution no longer functions, but K-Meleon Window Manager will work under any circumstances.
 
 ## Installation
-Install AutoHotkey. Run install.bat (this file is currently under construction, do not use). install.bat will automatically compile and install the application.
+Install the latest versions of K-Meleon and AutoHotkey. Run install.bat. install.bat will automatically compile and install the application, but it is still under construction, so shortcuts must be created manually as described in the manual installation section. After installation is complete, you may remove AutoHotkey.
+
+I will eventually create a binary installer and will upload it to my website (not github, I'll put a link here when it's done). The binary installer will allow you to install KWM without needing AutoHotkey.
 
 You can also manually compile and install the application. See below for more details.
 
@@ -26,7 +28,8 @@ KWM creates a tray icon. Right click to see the available actions and settings.
 * W-R (hold the windows key and then right click): Opens window management menu with options such as minimize, maximize/restore, close, and the entire tray menu. By default this hotkey now can be used for any application in Windows, but if you uncomment (delete the ; from) lines ?? and ?? of the ahk file before compiling, it will make it so this hotkey only works in K-Meleon.
 
 ## Manual Installation
-In case there is a problem with the above installation method, you can install it manually.
+In case there is a problem with the above installation method, you can install it manually: 
+
 1. Download and install AutoHotkey from http://www.autohotkey.com/. You can uninstall AutoHotkey when you are finished compiling.
 2. You have the choice of using AutoHotkey's default icon, or using the defaut K-Meleon icon:
   1. If you wish to have the letter H as the program's icon, navigate to and right click your .ahk file and click "compile," and in the same directory as your .ahk file there will be a new file called kmtbd.exe.
