@@ -48,7 +48,7 @@ To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, 
 
 1. Move kwm.exe and ```kwm.bat``` to the K-Meleon directory (```C:\Program Files (x86)\K-Meleon``` in 64-bit Windows)
 2. Right click the batch file and create a shortcut.
-3. Rename your new shortcut to ```K-Meleon.ink```
+3. Rename your new shortcut to ```K-Meleon.lnk```
 4. Right click the shortcut and go to properties
 5. Click "Change Icon"
 6. Browse and navigate to ```C:\Program Files (x86)\K-Meleon``` and select ```k-meleon.exe```
