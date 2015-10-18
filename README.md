@@ -54,8 +54,8 @@ To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, 
 6. Browse and navigate to ```C:\Program Files (x86)\K-Meleon``` and select ```k-meleon.exe```
 7. Select the first icon (or whatever you want) and hit OK, then OK again.
 8. Copy this new shortcut to both of these locations, replacing the old shortcuts.
-  * ---->```C:\ProgramData\Microsoft\Windows\Start Menu\Programs```
-  * ---->```%appdata%\Microsoft\Windows\Start Menu\Programs```
+  * ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs```
+  * ```%appdata%\Microsoft\Windows\Start Menu\Programs```
 9. If you have a desktop (or quick launch in XP) shortcut to K-Meleon, replace it with that one also.
 10. If you have K-Meleon pinned to your taskbar (Windows 7, 8, 10), navigate to ```%appdata%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar```
 11. There should be a file called something like K-Meleon Web Browser. Copy your newly made shortcut into this directory.
