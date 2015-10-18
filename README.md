@@ -13,7 +13,7 @@ I originally created this because I was unsatisfied with the currently existing 
 1. Install the latest versions of K-Meleon from http://kmeleonbrowser.org/download.php and AutoHotkey from http://www.autohotkey.com/.
 2. Download and extract zip from this page.
 3. Run install.bat.
-4. OPTIONAL: After the installation is complete, you may remove AutoHotkey. 
+4. **Optional**: After the installation is complete, you may remove AutoHotkey. 
 
 install.bat will automatically compile and install the application as soon as it is executed (no prompts). Start menu, taskbar, and desktop shortcuts *should* be replaced with one that autostarts KWM with K-Meleon. If you have custom shortcuts and they don't work with KWM, you should copy the k-meleon.lnk file that gets created by install.bat into whatever location you desire (check out the Autostart section of Manual Install for more details about default shortcut locations). If you update K-Meleon and your shortcuts stop working with KWM, you can just run shortcut.bat and they should get fixed.
 
