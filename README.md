@@ -10,7 +10,12 @@ K-Meleon is a wonderful lightweight fully featured web browser, but one problem 
 I originally created this because I was unsatisfied with the currently existing methods of removing the title bar. Using the built in fullscreen settings (or fullscreen2plus) is a workaround that removes the title bar by entering fullscreen mode while leaving the taskbar and toolbars. This is unsatisfactory unless you keep K-Meleon maximized 100% of the time. If you want to have multiple windows on your screen at once, that solution no longer functions, but K-Meleon Window Manager will work under any circumstances.
 
 ## Installation
-Install the latest versions of K-Meleon and AutoHotkey from http://www.autohotkey.com/. Run install.bat. install.bat will automatically compile and install the application as soon as it is executed (no prompts), but it is still under construction, so shortcuts must be created manually as described starting in step 2 of the autostart section of Manual Installation. After installation is complete, you may remove AutoHotkey.
+1. Install the latest versions of K-Meleon from http://kmeleonbrowser.org/download.php and AutoHotkey from http://www.autohotkey.com/.
+2. Download and extract zip from this page.
+3. Run install.bat.
+4. OPTIONAL: After the installation is complete, you may remove AutoHotkey. 
+
+install.bat will automatically compile and install the application as soon as it is executed (no prompts). Start menu, taskbar, and desktop shortcuts *should* be replaced with one that autostarts KWM with K-Meleon. If you have custom shortcuts and they don't work with KWM, you should copy the k-meleon.lnk file that gets created by install.bat into whatever location you desire (check out the Autostart section of Manual Install for more details about default shortcut locations). If you update K-Meleon and your shortcuts stop working with KWM, you can just run shortcut.bat and they should get fixed.
 
 I will eventually create a binary installer and will upload it to my website (not github, I'll put a link here when it's done). The binary installer will allow you to install KWM without needing AutoHotkey.
 
