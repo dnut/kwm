@@ -5,7 +5,9 @@ A window management tool for K-Meleon in Microsoft Windows.
 K-Meleon Window Manager is a tiny open-source application (~4MB of RAM) which removes the title bar of K-Meleon, and adds hotkey controls as well as a window button toolbar to K-Meleon.
 
 ## Purpose
-I created this because I was unsatisfied with the currently existing methods of removing the title bar. Using the built in fullscreen settings (or fullscreen2plus) is a workaround that removes the title bar by entering fullscreen mode while leaving the taskbar and toolbars. This is unsatisfactory unless you keep K-Meleon maximized 100% of the time. If you want to have multiple windows on your screen at once, that solution no longer functions, but K-Meleon Window Manager will work under any circumstances.
+K-Meleon is a wonderful lightweight fully featured web browser, but it's biggest problem is a somewhat clunky outdated reliance on a separate title bar. KWM gives K-Meleon a more minimalistic modern interface similar to Firefox or Chrome by removing the system titlebar and integrating the window buttons into the web browser interface itself.
+
+I originally created this because I was unsatisfied with the currently existing methods of removing the title bar. Using the built in fullscreen settings (or fullscreen2plus) is a workaround that removes the title bar by entering fullscreen mode while leaving the taskbar and toolbars. This is unsatisfactory unless you keep K-Meleon maximized 100% of the time. If you want to have multiple windows on your screen at once, that solution no longer functions, but K-Meleon Window Manager will work under any circumstances.
 
 ## Installation
 Install the latest versions of K-Meleon and AutoHotkey from http://www.autohotkey.com/. Run install.bat. install.bat will automatically compile and install the application as soon as it is executed (no prompts), but it is still under construction, so shortcuts must be created manually as described starting in step 2 of the autostart section of Manual Installation. After installation is complete, you may remove AutoHotkey.
