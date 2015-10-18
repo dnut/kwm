@@ -70,3 +70,10 @@ To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, 
 ### Window Buttons: _ [] X 
 14. Manually copy all of the text in ```kwm-toolbar.cfg``` to the bottom of ```C:\Program Files (x86)\K-Meleon\browser\defaults\settings\toolbars.cfg```.
 15. Make sure the K-Meleon Window Manager toolbar is enabled in K-Meleon and click and drag it to wherever you would like.
+
+## Known Issues
+If you come up with a solution to any of these, please submit a pull request. Collaboration is encouraged!
+* If a shortcut is created on the taskbar leading to kwm.bat, when the application is launched it creates a new taskbar icon (at least in Windows 10). This results in "quick start"-like functionality as seen in early Windows releases and is less than ideal in a modern Windows system.
+* Every time the application is updated, three garbage lines are added to toolbar.cfg. These lines do not have any effect on the functionality of K-Meleon, but it is clutter that would ideally be avoided. This occurs because the commenting system employed by K-Meleon config files is buggy. The problem is that you cannot add comments to lines that contain the prime functionality of toolbar buttons without sacrificing the functionality of the button. If this is fixed by K-Meleon developers, then the kwm-toolbar.cfg can be changed to have the #kwm tag added to those lines, in which case they will be replaced rather than supplemented upon update. In the meantime, the user may manually remove these garbage lines if they so desire, but this is not necessary.
+
+As of the publication of this README, I have only tested the latest version of KWM in Windows 10 x64. In Windows XP x86 I only tested the original version of KWM which is totally different from the current version, and the version I tested in Windows 7 x64 was more recent but also no longer up to date. install.bat has only been tested in Windows 10 x64. If you experience any problems, please report bugs using the Issues tab (!) on the right side of the kwm repository.
