@@ -15,7 +15,7 @@ I will eventually create a binary installer and will upload it to my website (no
 You can also manually compile and install the application. See below for more details.
 
 ## Usage
-Start K-Meleon as normal. The shortcut should have been replaced to a shortcut leading to a batch file which will start KWM automatically with K-Meleon. When KWM is running, it will automatically remove the title bar from any K-Meleon window as soon as it becomes active. KWM will automatically shutdown when all K-Meleon windows are closed.
+Start K-Meleon as normal. The shortcut should have been replaced to a shortcut leading to a batch file which will start KWM automatically with K-Meleon. When KWM is running, it will automatically remove the title bar from any K-Meleon window as soon as it becomes active. KWM will automatically terminate when all K-Meleon windows are closed.
 
 ### Window Buttons
 During installation, new window buttons ( _ [] X ) are added to K-Meleon as a toolbar. Ensure that the K-Meleon Window Manager toolbar is active, then click and drag it to anywhere you wish (such as the top right of the window). You can right click these buttons for more options. You can also switch them out for OS X style window buttons by modifying your toolbar.cfg file to use the osx bmp variants.
