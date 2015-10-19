@@ -93,18 +93,18 @@ if %install% == true (
 
 	echo.
 	echo Compiling ahk, merging with icon . . .
-	%ahpath% /in kwm.ahk /out kwm.exe /icon k-meleon.ico
+	%ahpath% /in core\kwm.ahk /out core\kwm.exe /icon icons\k-meleon.ico
 
 	echo.
 	echo Copying exe and bat to K-Meleon folder, ini to Appdata . . .
-	copy kwm.exe %kmpath%\kwm.exe
-	copy kwm.bat %kmpath%\kwm.bat
-	copy kwm.ini %appdata%\K-meleon\kwm.ini
+	copy core\kwm.exe %kmpath%\kwm.exe
+	copy core\kwm.bat %kmpath%\kwm.bat
+	copy core\kwm.ini %appdata%\K-meleon\kwm.ini
 
 	echo.
 	echo Copying window buttons to all skin folders . . .
     for /r "%kmpath%\skins" %%i in (.) DO (
-    	@copy "kwm*.bmp" "%%i"
+    	@copy "icons\kwm*.bmp" "%%i"
     )
 
 	echo.
@@ -117,7 +117,7 @@ if %install% == true (
 	)
 	copy %kmpath%browser\defaults\settings\toolbars.cfg %kmpath%browser\defaults\settings\toolbars.cfg.bak
 	type %kmpath%browser\defaults\settings\toolbars.cfg.bak | findstr /v #kwm > %kmpath%browser\defaults\settings\toolbars.cfg
-	type kwm-toolbar.cfg >> %kmpath%browser\defaults\settings\toolbars.cfg
+	type core\kwm-toolbar.cfg >> %kmpath%browser\defaults\settings\toolbars.cfg
 
 	echo.
 	echo Creating shortcuts . . .
