@@ -68,7 +68,7 @@ To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, 
 13. Now all of your K-Meleon shortcuts open KM TitleBar Delete along with K-Meleon.
 
 ### Window Buttons: _ [] X 
-14. Manually copy all of the text in ```kwm-toolbar.cfg``` to the bottom of ```C:\Program Files (x86)\K-Meleon\browser\defaults\settings\toolbars.cfg```.
+14. Manually copy all of the text in ```core\kwm-toolbar.cfg``` to the bottom of ```C:\Program Files (x86)\K-Meleon\browser\defaults\settings\toolbars.cfg```.
 15. Make sure the K-Meleon Window Manager toolbar is enabled in K-Meleon and click and drag it to wherever you would like.
 
 ## Known Issues
