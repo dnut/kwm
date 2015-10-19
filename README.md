@@ -2,7 +2,7 @@
 A window management tool for K-Meleon in Microsoft Windows.
 
 ## Description
-K-Meleon Window Manager is a tiny open-source application (~4MB of RAM) which removes the title bar of K-Meleon, and adds hotkey controls as well as a window button toolbar to K-Meleon.
+K-Meleon Window Manager is a tiny open-source application (~4MB of RAM) which removes the title bar of K-Meleon, integrates the window buttons into the K-Meleon interface, and adds hotkey and tray controls for K-Meleon.
 
 ## Purpose
 K-Meleon is a wonderful lightweight fully featured web browser, but one problem is its somewhat clunky outdated reliance on a separate title bar. KWM gives K-Meleon a more minimalistic modern interface similar to Firefox or Chrome by removing the system titlebar and integrating the window buttons into the web browser interface itself.
