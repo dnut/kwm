@@ -24,13 +24,13 @@ You can also manually compile and install the application. See below for more de
 ## Usage
 Start K-Meleon as normal. The shortcut should have been replaced to a shortcut leading to a batch file which will start KWM automatically with K-Meleon. When KWM is running, it will automatically remove the title bar from any K-Meleon window as soon as it becomes active. KWM will automatically terminate when all K-Meleon windows are closed.
 
-### Window Buttons
+#### Window Buttons
 During installation, new window buttons ( _ [] X ) are added to K-Meleon as a toolbar. Ensure that the K-Meleon Window Manager toolbar is active, then click and drag it to anywhere you wish (such as the top right of the window). You can right click these buttons for more options. You can also switch them out for OS X style window buttons by modifying your toolbar.cfg file to use the osx bmp variants.
 
-### Tray Icon
+#### Tray Icon
 KWM creates a tray icon. Right click to see the available actions and settings.
 
-### Hotkeys / Keybinds
+#### Hotkeys / Keybinds
 * W-L (hold the windows key and then left click): Cycles titlebar state. On the first press, it will bring back the title bar on any activated K-Meleon window, on the next press it will return back to the initial state of the program, and so on.
 * W-R (hold the windows key and then right click): Opens window management menu with options such as minimize, maximize/restore, close, and the entire tray menu. By default this hotkey now can be used for any application in Windows, but if you uncomment (delete the ; from) lines ?? and ?? of the ahk file before compiling, it will make it so this hotkey only works in K-Meleon.
 
@@ -48,7 +48,7 @@ The install.bat file automatically executes all of the steps in this section exc
     5. Click convert, and now you have compiled an .exe file with the name, location, and icon of your choosing.
 3. Run the file (double click) and now it is active, all K-Meleon windows will behave in the new way I have described. Without any further work, you must manually start this application when you want it to work.
 
-### Autostart
+#### Autostart
 To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, so you will probably want to follow these steps):
 
 1. Move ```core\kwm.exe``` and ```core\kwm.bat``` to the K-Meleon directory (```C:\Program Files (x86)\K-Meleon``` in 64-bit Windows)
@@ -67,7 +67,7 @@ To make it start with K-Meleon (KWM quits when all K-Meleon windows are closed, 
 12. If it has the same name as the original, let it overwrite. If they have different names, delete the original and rename yours (only the one in TaskBar) to the name that the original had.
 13. Now all of your K-Meleon shortcuts open KM TitleBar Delete along with K-Meleon.
 
-### Window Buttons: _ [] X 
+#### Window Buttons: _ [] X 
 14. Manually copy all of the text in ```core\kwm-toolbar.cfg``` to the bottom of ```C:\Program Files (x86)\K-Meleon\browser\defaults\settings\toolbars.cfg```.
 15. Make sure the K-Meleon Window Manager toolbar is enabled in K-Meleon and click and drag it to wherever you would like.
 
