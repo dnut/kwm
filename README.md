@@ -39,12 +39,12 @@ In case there is a problem with the above installation method, you can install i
 
 1. Download and install AutoHotkey from http://www.autohotkey.com/. You can uninstall AutoHotkey when you are finished compiling.
 2. You have the choice of using AutoHotkey's default icon, or using the defaut K-Meleon icon:
-  1. If you wish to have the letter H as the program's icon, navigate to and right click kwm.ahk and click "compile," and in the same directory as your .ahk file there will be a new file called kwm.exe.
+  1. If you wish to have the letter H as the program's icon, navigate to and right click core\kwm.ahk and click "compile," and in the same directory as your .ahk file there will be a new file called kwm.exe.
   2. If instead you wish to use my icon (whatever icon you choose will be visible in the tray), follow these steps:
     1. Then open "Convert .ahk to .exe" which should now be in your start menu under AutoHotkey.
-    2. For Source, select the ```kwm.ahk```
+    2. For Source, select the ```core\kwm.ahk```
     3. For destination, choose a new name and save location (```kwm.exe```)
-    4. For Custom Icon, select ```k-meleon.ico```
+    4. For Custom Icon, select ```icons\k-meleon.ico```
     5. Click convert, and now you have compiled an .exe file with the name, location, and icon of your choosing.
 3. Run the file (double click) and now it is active, all K-Meleon windows will behave in the new way I have described. Without any further work, you must manually start this application when you want it to work.
 
