@@ -35,7 +35,7 @@ KWM creates a tray icon. Right click to see the available actions and settings.
 * W-R (hold the windows key and then right click): Opens window management menu with options such as minimize, maximize/restore, close, and the entire tray menu. By default this hotkey now can be used for any application in Windows, but if you uncomment (delete the ; from) lines ?? and ?? of the ahk file before compiling, it will make it so this hotkey only works in K-Meleon.
 
 ## Manual Installation
-In case there is a problem with the above installation method, you can install it manually: 
+The install.bat file automatically executes all of the steps in this section. All you have to do is run install.bat. In case there is a problem with the install.bat installation method, you can install it manually: 
 
 1. Download and install AutoHotkey from http://www.autohotkey.com/. You can uninstall AutoHotkey when you are finished compiling.
 2. You have the choice of using AutoHotkey's default icon, or using the defaut K-Meleon icon:
